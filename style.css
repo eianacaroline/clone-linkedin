@@ -1,0 +1,272 @@
+/* General */
+:root {
+    font-family: 'Rambla', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #F3F2EE;
+}
+
+/* Header */
+header {
+    display: flex;
+    width: 100vw;
+    height: 59px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+
+}
+
+.content-nav {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    max-width: 1024px;
+}
+
+/* Logo and search section */
+.nav-one {
+    display: flex;
+    align-items: center;
+}
+
+.nav-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+}
+
+input {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.logo {
+    height: 34px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    border-radius: 4px;
+    background-color: #EEF3F7;
+    width: 235px;
+    height: 36px;
+}
+
+.search-icon {
+    padding-right: .5vw;
+    width: 11px;
+}
+
+/* Icon section */
+.icon-list {
+    display: flex;
+    width: 36vw;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.icon-image {
+    width: 20px;
+    opacity: .6;
+    padding-bottom: 5px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+    font-size: 10px;
+}
+
+.icon-link:hover {
+    opacity: 1;
+}
+
+
+/* Avatar section */
+.me-image {
+    width: 24px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+
+.me-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.me-image-link {
+        text-decoration: none;
+        color: #a3a3a3;
+        font-size: 10px;
+}
+
+.me-image-link:hover {
+    color: black;
+}
+
+/* Main */
+.content-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Profile */
+.card-profile {
+    background-color: white;
+    width: 90vw;
+    height: 45vw;
+    max-height: 350px;
+    border-radius: 5px;
+    max-width: 1024px;
+    margin-top:40px;
+}
+
+.profile-image {
+    width: 105px;
+    border-radius: 100px;
+    margin-left: 38px;
+    border: 3px solid;
+    border-color:white;
+    bottom: 0;
+    transform: translateY(70%);
+}
+
+
+
+.content-capa {
+    width: 100%;
+    height: 135px;
+    background-image: url(./img/capa.jpg);
+}
+
+.infos {
+    margin-left: 38px;
+    margin-top: 75px;
+}
+
+.infos h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+}
+
+.infos p {
+    line-height: 2em;
+}
+
+
+.infos span {
+    color: gray;
+}
+
+.buttons {
+    display: flex;
+    width: 46vw;
+    justify-content: space-between;
+    margin-top: 11px;
+    max-width: 350px;
+}
+
+.button-primary {
+    font-size: 11px;
+    background-color: #0B65C2;
+    font-weight: bold;
+    color: white;
+    padding: 4px 16px;
+    border: 2px solid #0B65C2;
+    border-radius: 30px;
+
+}
+
+.button-primary:hover {
+    background-color: #0b539b;
+    border-color: #0b539b;
+}
+
+.button-secondary {
+    font-size: 11px;
+    background: none;
+    font-weight: bold;
+    color: #666666;
+    padding: 4px 16px;
+    border: 2px solid #666666;
+    border-radius: 30px;
+}
+
+.button-secondary:hover {
+    background-color: #f1f1f1;
+}
+
+.card-experience-education {
+    line-height: 2em;
+    background-color: white;
+    width: 90vw;
+    border-radius: 5px;
+    max-width: 1024px;
+    margin-top:34px;
+    margin-bottom: 38px;
+}
+
+.image-experience, .image-education {
+    width: 40px;
+    height: 40px;
+    margin-left: 38px;
+}
+
+.experience {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.experience .experience-info, .education .education-info {
+    display: flex;
+    align-items:flex-start;
+}
+
+.experience-description, .education-description, .education-description1 {
+    margin-left: 21px;
+    margin-bottom: 34px;
+}
+
+.experience h2, .education h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    margin-left: 38px;
+}
+
+.experience h3, .education h3 {
+    font-weight: bold;
+}
+
+.education .education-description1 {
+    margin-bottom: 30px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
