@@ -76,6 +76,34 @@ input {
     max-width: 400px;
 }
 
+@media only screen and (max-width: 426px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    .icon-list {
+        display: none;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+
+    .nav-two {
+        margin-left: 12vw;
+    }
+
+    .card-profile {
+        height: 100vw;
+        max-height: 100vw;
+    }
+
+    .card-experience-education {
+        margin-top: 200px;
+    }
+}
+
+
 .icon-image {
     width: 20px;
     opacity: .6;
@@ -139,7 +167,6 @@ input {
 .card-profile {
     background-color: white;
     width: 90vw;
-    height: 45vw;
     max-height: 350px;
     border-radius: 5px;
     max-width: 1024px;
@@ -158,7 +185,7 @@ input {
 
 
 
-.content-capa {
+.content-profile {
     width: 100%;
     height: 135px;
     background-image: url(./img/capa.jpg);
@@ -268,5 +295,22 @@ input {
     margin-bottom: 30px;
     padding-bottom: 34px;
     border-bottom: 1px solid #EBEBEB;
+}
+
+@media only screen and (min-width: 427px){
+    .card-profile {
+        height: 45vw;
+    }
+
+}
+
+@media only screen and (max-width: 321px){
+    .search-bar {
+        width: 170px;
+    }
+
+    .card-profile {
+        height: 110vw;
+    }
 }
 
