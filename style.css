@@ -18,7 +18,6 @@ header {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;    
-
 }
 
 .content-nav {
@@ -76,34 +75,6 @@ input {
     max-width: 400px;
 }
 
-@media only screen and (max-width: 426px){
-    * {
-        box-sizing: border-box;
-    }
-    
-    .icon-list {
-        display: none;
-    }
-
-    .search-bar {
-        width: 200px;
-    }
-
-    .nav-two {
-        margin-left: 12vw;
-    }
-
-    .card-profile {
-        height: 100vw;
-        max-height: 100vw;
-    }
-
-    .card-experience-education {
-        margin-top: 200px;
-    }
-}
-
-
 .icon-image {
     width: 20px;
     opacity: .6;
@@ -128,7 +99,6 @@ input {
     opacity: 1;
 }
 
-
 /* Avatar section */
 .me-image {
     width: 24px;
@@ -145,9 +115,9 @@ input {
 }
 
 .me-image-link {
-        text-decoration: none;
-        color: #a3a3a3;
-        font-size: 10px;
+    text-decoration: none;
+    color: #a3a3a3;
+    font-size: 10px;
 }
 
 .me-image-link:hover {
@@ -183,14 +153,13 @@ input {
     transform: translateY(70%);
 }
 
-
-
 .content-profile {
     width: 100%;
     height: 135px;
     background-image: url(./img/capa.jpg);
 }
 
+/* Info Section */
 .infos {
     margin-left: 38px;
     margin-top: 75px;
@@ -211,6 +180,7 @@ input {
     color: gray;
 }
 
+/* Buttons */
 .buttons {
     display: flex;
     width: 46vw;
@@ -227,12 +197,12 @@ input {
     padding: 4px 16px;
     border: 2px solid #0B65C2;
     border-radius: 30px;
-
 }
 
 .button-primary:hover {
     background-color: #0b539b;
-    border-color: #0b539b;
+    border: 3px solid #0b539b;
+    margin: -1px;
 }
 
 .button-secondary {
@@ -247,8 +217,11 @@ input {
 
 .button-secondary:hover {
     background-color: #f1f1f1;
+    border: 3px solid #666666;
+    margin: -1px;
 }
 
+/* Experience and Education */
 .card-experience-education {
     line-height: 2em;
     background-color: white;
@@ -297,11 +270,34 @@ input {
     border-bottom: 1px solid #EBEBEB;
 }
 
+@media only screen and (max-width: 426px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    .icon-list {
+        display: none;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+
+    .nav-two {
+        margin-left: 12vw;
+    }
+
+    .card-profile {
+        height: 100vw;
+        max-height: 100vw;
+    }
+
+}
+
 @media only screen and (min-width: 427px){
     .card-profile {
         height: 45vw;
     }
-
 }
 
 @media only screen and (max-width: 321px){
@@ -313,4 +309,3 @@ input {
         height: 110vw;
     }
 }
-
